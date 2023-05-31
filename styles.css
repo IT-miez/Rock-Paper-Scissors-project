@@ -1,0 +1,144 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    /*background-image: url(rps-background.jpg);*/
+    background-image: linear-gradient(to left top, #D3D3D3, #808080);
+    background-attachment: fixed;
+}
+
+h1 {
+    color: black;
+}
+
+.container-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    width: 800px;
+}
+
+#main-header {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+#secondary-header {
+    display: flex;
+    justify-content: center;
+}
+
+.buttondiv {
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-between;
+}
+
+
+.buttonWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    cursor: pointer;
+    height: 200px;
+    transition: transform (.2s);
+    transition: 0.2s;
+}
+.buttonWrapper:hover .rps-icon {
+    transition: 0.2s;
+    transform: scale(1.1);
+}
+
+.buttonWrapper:not(:hover) .rps-icon {
+    transition: 0.2s;
+    transform: scale(1);
+}
+
+
+.rps-icon {
+    display: flex;
+    width: 100px;
+}
+
+.chooseButton {
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 1px solid white;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    
+}
+
+.chooseButton.extended {
+    display: none;
+}
+
+
+.resultdiv-base {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.resultdiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 800px;
+    border-style: solid;
+    border-color: black;
+    border-top: 1px;
+    border-bottom: 1px;
+    padding: 10px;
+}
+
+.resultText {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.resultText-status {
+    color: black;
+    font-size: 16spx;
+    text-align: end;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 50%;
+}
+
+/* DISABLED BUTTONS */
+.disabled-clicks {
+    pointer-events: none;
+}

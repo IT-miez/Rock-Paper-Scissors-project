@@ -4,10 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <title>Rock Paper Scissor - game</title>
 </head>
 <body>
-    
+    <div class="container-background">
+        <div class="container">
+            <h1 id="main-header">Rock Paper Scissors</h1>
+            <h2 id="secondary-header">Choose</h2>
+            <button id="restartButton" class="chooseButton extended">Restart game</button>
+            <div class="buttondiv">
+                <div class="buttonWrapper">
+                    <img class="rps-icon" src="rock.png"> </img>
+                    <h2>Rock</h2>
+                </div>
+                <div class="buttonWrapper">
+                    <img class="rps-icon" src="paper.png"> </img>
+                    <h2>Paper</h2>
+                </div>
+                <div class="buttonWrapper">
+                    <img class="rps-icon" src="scissors.png"> </img>
+                    <h2>Scissors</h2>
+                </div>
+            </div>
+
+
+            <div id="resultdiv-base">
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
 </body>
 <script src="index.js"></script>
 </html>
