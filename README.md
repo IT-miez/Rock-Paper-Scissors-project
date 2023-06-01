@@ -4,7 +4,7 @@ I made a couple iterations before I completed my rock paper scissors website wit
 
 ## Live site
 GitHub Pages site: https://it-miez.github.io/Rock-Paper-Scissors-project/
-</br>
+</br></br>
 
 ## Technologies used
 **HTML** </br>
