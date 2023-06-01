@@ -2,6 +2,9 @@
 This project was made while doing The Odin Project. </br>
 I made a couple iterations before I completed my rock paper scissors website with clickable hovering icons.</br><br>
 
+## Live site
+GitHub Pages site: https://it-miez.github.io/Rock-Paper-Scissors-project/
+
 ## Technologies used
 **HTML** </br>
 **CSS** (styling, flexbox, hover-effects)</br>
